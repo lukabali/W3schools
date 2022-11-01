@@ -1,0 +1,115 @@
+:root {
+    --green: rgb(4, 170, 109);
+    --white: white;
+    --black: rgb(13,23,33);
+    --lightgreen: #D9EEE1;
+}
+
+header {
+    height: 140px;
+}
+
+.logo{
+    width: 77px;
+    height: 45px;
+}
+
+.login {
+    float: right;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    height: 44px;
+    background-color: var(--black);
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 10px 15px 9px 15px;
+}
+
+.hover:hover {
+    background-color: black;
+}
+
+.house_icon {
+    height: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.html_box {
+    background-color: var(--green);
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+button {
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 8px 16px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.green_area {
+    width: 80%;
+    height: 220px;
+    background-color: var(--lightgreen);
+    position: absolute;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.last-btn {
+    margin-left: 30px;
+}
+
+.p-area {
+    position: relative;
+    top: 10%;
+}
+
+@media only screen and (max-width: 768px){
+    ul {
+        width: 100%;
+    }
+
+    .green_area {
+        width: 100%;
+    }
+}
